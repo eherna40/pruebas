@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './styles.css'
 const Lote = props => {
 
     const [click, setClick] = useState(false)
@@ -19,7 +19,7 @@ const Lote = props => {
             {
                 nuevoTitulo && <div className="infoExpandida">
                     nuevo titulo: {nuevoTitulo}
-                    </div>
+                </div>
             }
 
         </div>
